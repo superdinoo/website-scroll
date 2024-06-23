@@ -1,0 +1,109 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: var(--darkgrey);
+}
+
+.container {
+  max-width: 1240px;
+  padding: 0 1rem;
+  margin: auto;
+}
+
+.hero .contentBack {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.col {
+  padding: 1rem 1rem 1rem 0;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.col h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.col p {
+  font-size: 1rem;
+  color: var(--white);
+  line-height: 1.4;
+  margin-top: 1.2rem;
+}
+
+.col .usedBy p {
+  color: var(--lightgrey);
+  font-size: 0.7rem;
+  margin: 2rem 0 1rem 0;
+}
+
+.col2 {
+  padding: 1rem;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+
+.col2 p {
+  color: var(--grey);
+}
+
+.formLayout {
+  width: 400px;
+  background-color: var(--white);
+  border-radius: 6px;
+}
+.formContainer {
+  padding: 1.5rem 2rem;
+}
+
+.signIntxt {
+  margin-bottom: 10px;
+}
+.socialLogin {
+  display: flex;
+  width: 50%;
+}
+
+.socialLogin span {
+  display: flex;
+  background: var(--white);
+  padding: 16px 45px 6px 45px;
+  border: 1px solid var(--lightgrey);
+  border-radius: 4px;
+}
+
+.col2 .divider p {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid var(--lightgrey);
+  line-height: 0.1rem;
+  margin: 2rem 0 2rem;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  margin: 1.2rem 0;
+  padding: 0.5rem;
+  border: 1px solid var(--lightgrey);
+  background: var(--while);
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 8px 0;
+  border-radius: 4px;
+  border: 1px solid var(--primary);
+  background-color: var(--primary);
+  color: var(--while);
+  cursor: pointer;
+}
